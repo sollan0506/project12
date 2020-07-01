@@ -1,0 +1,482 @@
+@charset "utf-8";
+
+@import url(reset.css);
+
+
+/* ************************* 레이아웃 구성 시작 ******************************* */
+#wrap, #wrap>div { width: 100%; }
+#header { height: 105px; }
+#intro { height: 819px; }
+#about { height: 1092px; }
+#fact { height: 903px; }
+#guide { height: 987px; }
+#news { height: 693px;}
+#footer { height: 400px; }
+
+.container {
+  width: 1170px; height: 100%;
+  margin: auto;
+}
+
+
+
+
+
+/* ************************* 공통영역 선언 시작 ******************************* */
+.btn {
+  width: 170px; height: 42px;
+  border-radius: 21px;
+  font: 400 2.4em 'Nanum Gothic', sans-serif;
+  text-align: center;
+  padding-top: 7px;
+}
+
+.btn1{
+  border: 1px solid #fff;
+}
+.btn1 a{
+  display: block;
+  width: 100%;
+  height: 100%;
+  color: #fff;
+}
+
+.btn2{
+  border: 1px solid #9E7D46;
+}
+.btn2 a{
+  display: block;
+  width: 100%;
+  height: 100%;
+  color: #9E7D46;
+}
+
+
+
+/* ************************* 개별영역 선언 시작 ******************************* */
+/* **************** header Area Start ****************** */
+
+#header {
+  position: absolute; left: 0; top: 0;
+  padding-top: 21px;
+  z-index: 10;
+}
+
+/* site logo */
+#header h1 {
+  width: 100px; height: 63px;
+  float: left;
+}
+#header h1 a {
+  background: url(../images/logo.png) no-repeat 0 0;
+}
+
+/* q-menu */
+#header .q-menu {
+  width: 35px; height: 35px;
+  border-radius: 50%;
+  border: 3px solid #fff;
+  float: right;
+  position: relative;
+}
+#header .q-menu i {
+  font-size: 2.4em;
+  position: absolute;
+  left: 4px; top: 3px;
+  color: #fff;
+}
+
+
+
+
+/* **************** intro Area Start ****************** */
+#intro {
+  background: url(../images/mountain1.png) no-repeat 0 0;
+  background-size: cover;
+  /* clip-path: polygon(0 0, 100% 0, 100% 80%, 50% 100%, 0 80%); */
+}
+#intro .container {
+  position: relative;
+}
+
+/* title box */
+#intro .title-box {
+  width: 570px; height: 105px;
+  position: absolute; left: 50%; top: 30%;
+  margin-left: -285px; margin-top: -52px;
+  text-align: center;
+}
+#intro .title-box h2 {
+  font: bold 6em 'Nanum Gothic', sans-serif;
+  margin-bottom: 21px;
+  color: #fff;
+}
+#intro .title-box p {
+  font: 400 2.4em 'Nanum Gothic', sans-serif;
+  color: #fff;
+}
+
+/* btn */
+#intro .btn {
+  position: absolute;
+  left: 42%; bottom: 30%;
+}
+#intro .scroll-btn {
+  position: absolute;
+  left: 47%; bottom: 10%;
+  -webkit-transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+  -o-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+}
+#intro .scroll-btn a {
+  font: 400 2em 'Nanum Gothic', sans-serif;
+  color: #fff;
+}
+
+/* pager */
+#intro .pager {
+  position: absolute;
+  left: 0; top: 30%;
+}
+#intro .pager li:nth-child(odd) {
+  width: 12px; height: 12px;
+  border-radius: 50%;
+  background-color: #fff;
+  margin-bottom: 15px;
+}
+#intro .pager li:nth-child(even) {
+  width: 6px; height: 6px;
+  border-radius: 50%;
+  background-color: #fff;
+  margin: 0 0 15px 3px;
+}
+/* 안먹혀서 일단 주석처리함 */
+/* #intro .pager li:first-child::after {
+  width: 15px; height: 15px;
+  border-radius: 50%;
+  border: 1px solid #000;
+  margin-bottom: 15px;
+} */
+
+
+
+
+
+/* **************** about Area Start ****************** */
+#about {
+  background: url(../images/mountain2.png) no-repeat 0 0;
+  background-size: cover;
+  clip-path: polygon(0 100%, 100% 60%, 100% 0, 50% 20%, 0 0);
+  position: absolute;
+  left: 0; top: 600px;
+  z-index: 10;
+}
+
+#about h2 {
+  text-align: center;
+  margin: 326px 0 84px 0;
+  font: bold 6em 'Nanum Gothic', sans-serif;
+  color: #9E7D46;
+}
+#about .sub-text-box {
+  width: 1127px; height: 194px;
+  margin-bottom: 50px;
+}
+#about .sub-text-box>p {
+  width: 500px;
+  float: left;
+}
+#about .sub-text-box>p:first-child {
+  margin-right: 100px;
+}
+#about .btn {
+  position: absolute; left: 47%; top: 70%;
+  
+  -webkit-transform: translate(-50%,-50%);
+  -moz-transform: translate(-50%,-50%);
+  -o-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+}
+
+
+/* **************** fact Area Start ****************** */
+#fact {
+  background: url(../images/mountain3.png) no-repeat 0 0;
+  background-size: cover;
+  position: absolute;
+  left: 0; top: 1250px;
+}
+#fact .container {
+  position: relative;
+}
+
+#fact h2{
+  text-align: center;
+  margin: 326px 0 50px 0;
+  font: bold 6em 'Nanum Gothic', sans-serif;
+  color: #9E7D46;
+}
+#fact .slider-items {
+  width: 770px; height: 168px;
+  margin-left: 250px;
+}
+#fact .slider-item {
+  width: 170px; height: 100%;
+  float: left;
+  border-radius: 50%;
+  border: 1px solid #9E7D46;
+  margin-right: 70px;
+  font: 400 2.4em 'Nanum Gothic', sans-serif;
+  color: #fff;
+  text-align: center;
+}
+#fact .slider-item h3 {
+  font: 400 3.5em/120px 'Nanum Gothic', sans-serif;
+}
+
+/* controls */
+#fact .controls .prev,
+#fact .controls .next{
+  position: absolute;
+  top: 18%;
+}
+#fact .controls .prev {
+  left: 0;
+}
+#fact .controls .next {
+  right: 0;
+}
+#fact .controls i {
+  font-size: 7.2em;
+  color: #9E7D46;
+}
+
+
+
+/* **************** guide Area Start ****************** */
+#guide {
+  background: url(../images/mountain4.png) no-repeat 0 0;
+  background-size: cover;
+  clip-path: polygon(0 0, 100% 30%, 100% 80%, 0% 100%);
+
+  position: absolute;
+  left: 0; top: 1850px;
+}
+
+#guide h2{
+  text-align: center;
+  margin: 250px 0 50px 0;
+  font: bold 6em 'Nanum Gothic', sans-serif;
+  color: #fff;
+}
+
+#guide .slider-items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#guide .slider-items .slider-item{
+  margin: 0 73px;
+}
+#guide .slider-items .slider-item:nth-child(2){
+  position: relative;
+  text-align: center;
+}
+#guide .slider-items .plus-btn{
+  position: absolute;
+  right: 20px; top: 0;
+}
+#guide .slider-items .guide-name {
+  font: 400 2.4em 'Nanum Gothic', sans-serif;
+  color: #fff;
+  margin: 21px 0 10px 0;
+}
+#guide .slider-items .guide-sns {
+  font: 400 2.4em 'Nanum Gothic', sans-serif;
+  color: #fff;
+}
+
+/* controls */
+#guide .controls .prev,
+#guide .controls .next{
+  position: absolute;
+  top: 45%;
+  z-index: 10;
+}
+#guide .controls .prev {
+  left: 480px;
+}
+#guide .controls .next {
+  right: 480px;
+}
+#guide .controls i {
+  font-size: 7.2em;
+  color: #fff;
+}
+
+/* btn */
+#guide .btn {
+  position: absolute; left: 50%; top: 80%;
+  
+  -webkit-transform: translate(-50%,-50%);
+  -moz-transform: translate(-50%,-50%);
+  -o-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+}
+
+
+/* **************** news Area Start ****************** */
+#news {
+  background: url(../images/mountain5.png) no-repeat 0 0;
+  background-size: cover;
+  clip-path: polygon(100% 0, 100% 80%, 50% 100%, 0 80%, 0 0);
+
+  position: absolute;
+  left: 0; top: 2600px;
+  z-index: -1;
+}
+
+#news .container {
+  position: relative;
+}
+
+#news h2{
+  text-align: center;
+  margin: 180px 0 50px 0;
+  font: bold 6em 'Nanum Gothic', sans-serif;
+  color: #9E7D46;
+}
+
+/* slider-items */
+#news .slider-items{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#news .slider-items .slider-item {
+  position: relative;
+}
+#news .slider-items .slider-item:first-child {
+  margin-right: 156px;
+}
+#news .slider-items .slider-item>img{
+  width: 310px;
+  height: 210px;
+  position: relative;
+  z-index: 10;
+}
+#news .slider-items .slider-item .bg-box{
+  width: 293px;
+  height: 189px;
+  border: 1px solid #9E7D46;
+  position: absolute;
+  top: 63px; left: 52px;
+}
+#news .slider-items .bg-box h3{
+  position: absolute;
+  left: 10px; bottom: 5px;
+  font: 400 2.4em 'Nanum Gothic', sans-serif;
+}
+#news .slider-items .bg-box .date{
+  position: absolute;
+  right: -33px;
+  top: 50px;
+  font: 400 1.8em 'Nanum Gothic', sans-serif;
+  color: #9e7d46;
+
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+#news .slider-items .bg-box a{
+  width: 20px; height: 20px;
+  position: absolute;
+  right: 10px; bottom: 10px;
+}
+
+/* controls */
+#news .controls .prev,
+#news .controls .next{
+  position: absolute;
+  top: 30%;
+  z-index: 10;
+}
+#news .controls .prev {
+  left: 0px;
+}
+#news .controls .next {
+  right: 0px;
+}
+#news .controls i {
+  font-size: 7.2em;
+  color: #9E7D46;
+}
+
+/* btn */
+#news .btn {
+  position: absolute; left: 50%; top: 63%;
+  
+  -webkit-transform: translate(-50%,-50%);
+  -moz-transform: translate(-50%,-50%);
+  -o-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+}
+
+
+
+/* **************** footer Area Start ****************** */
+#footer {
+  background-color: #3a3a3a;
+  position: absolute;
+  left: 0; top: 3100px;
+  z-index: -2;
+}
+#footer .container {
+  position: relative;
+}
+
+#footer .logo {
+  width: 92px; height: 60px;
+  position: absolute;
+  left: 0; bottom: 63px;
+}
+#footer .footer-nb {
+  width: 500px; height: 21px;
+  position: absolute;
+  right: 170px; bottom: 84px;
+}
+#footer .footer-nb li {
+  float: left;
+  margin-right: 50px;
+}
+#footer .footer-nb li a {
+  color: #fff;
+}
+#footer .sns {
+  width: 130px; height: 21px;
+  position: absolute;
+  right: 0; bottom: 84px;
+}
+#footer .sns a {
+  margin-left: 20px;
+}
+#footer .sns i {
+  font-size: 2.4em;
+  color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+

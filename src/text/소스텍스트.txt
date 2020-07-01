@@ -1,0 +1,74 @@
+
+[ HEADER 영역 ]
+
+1. 사이트 로고 - HIKE
+
+
+[ INTRO 영역]
+
+1. 타이틀 - JOIN THE TRAVEL
+
+2. 서브텍스트 - Not all who wander are lost
+
+3. 버튼 - JOIN
+
+4. 스크롤 버튼 - SCROLL
+
+
+[ ABOUT 영역]
+
+1. 타이틀 - ABOUT US
+
+2. 문단
+
+Hike is an evolution of the interpretive program begun by Walz and Rebecca Anderson in 1976. 
+It has gone through many organizers, many directors, and amny name changes to become the
+program that we offer today. For many decades the landowners In the Sutter Buttes allowed easy public
+access to their ranches. By the 1960's, population growth lead to an overwhelming number of people
+wanting to access the Buttes and problems with visitors.
+
+We have emphasized a faith in the abilty of the people themselves to best protect and share the 
+natural and cultural resources vital to the well-being of their communities. Our success depends 
+upon a positive spirit of constructive collaboration. In seeking a way for the public interrest and
+private land to converge for the benefit of all, we have always favored inclusiveness; the bringing
+together private landowners and anyone who loves a natural environment.
+
+3. 버튼 - MORE
+
+
+
+[ FACTS 영역]
+
+1. 타이틀 - FACTS
+
+2. items - 67 Travelers
+	 34 Countries
+	 79 Bonfires
+
+
+
+[ GUIDES 영역]
+
+1. 타이틀 - GUIDES
+
+2. guide - DANIS ROJERS
+
+3. 버튼 - MORE
+
+
+
+[ NEWS 영역]
+
+1. 타이틀 - NEWS
+
+2. article - NEW ROUTE 12.06.2016
+	  TRIP TO SCOTLAND 12.05.2016
+
+3. 버튼 - MORE
+
+
+[ FOOTER 영역]
+
+Home	About us		Blog	Guides	Contacts
+
+
