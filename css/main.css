@@ -36,8 +36,7 @@
 }
 .btn1 a{
   display: block;
-  width: 100%;
-  height: 100%;
+  width: 100%; height: 100%;
   color: #fff;
 }
 
@@ -46,8 +45,7 @@
 }
 .btn2 a{
   display: block;
-  width: 100%;
-  height: 100%;
+  width: 100%; height: 100%;
   color: #9E7D46;
 }
 
@@ -57,9 +55,10 @@
 /* **************** header Area Start ****************** */
 
 #header {
-  position: absolute; left: 0; top: 0;
-  padding-top: 21px;
+  position: absolute; 
+  left: 0; top: 0;
   z-index: 10;
+  padding-top: 21px;
 }
 
 /* site logo */
@@ -81,9 +80,9 @@
 }
 #header .q-menu i {
   font-size: 2.4em;
+  color: #fff;
   position: absolute;
   left: 4px; top: 3px;
-  color: #fff;
 }
 
 
@@ -93,7 +92,6 @@
 #intro {
   background: url(../images/mountain1.png) no-repeat 0 0;
   background-size: cover;
-  /* clip-path: polygon(0 0, 100% 0, 100% 80%, 50% 100%, 0 80%); */
 }
 #intro .container {
   position: relative;
@@ -102,14 +100,16 @@
 /* title box */
 #intro .title-box {
   width: 570px; height: 105px;
-  position: absolute; left: 50%; top: 30%;
-  margin-left: -285px; margin-top: -52px;
   text-align: center;
+  position: absolute; 
+  left: 50%; top: 30%;
+  margin-left: -285px; 
+  margin-top: -52px;
 }
 #intro .title-box h2 {
   font: bold 6em 'Nanum Gothic', sans-serif;
-  margin-bottom: 21px;
   color: #fff;
+  margin-bottom: 21px;
 }
 #intro .title-box p {
   font: 400 2.4em 'Nanum Gothic', sans-serif;
@@ -124,6 +124,7 @@
 #intro .scroll-btn {
   position: absolute;
   left: 47%; bottom: 10%;
+
   -webkit-transform: rotate(-90deg);
   -moz-transform: rotate(-90deg);
   -o-transform: rotate(-90deg);
@@ -152,15 +153,6 @@
   background-color: #fff;
   margin: 0 0 15px 3px;
 }
-/* 안먹혀서 일단 주석처리함 */
-/* #intro .pager li:first-child::after {
-  width: 15px; height: 15px;
-  border-radius: 50%;
-  border: 1px solid #000;
-  margin-bottom: 15px;
-} */
-
-
 
 
 
@@ -176,9 +168,9 @@
 
 #about h2 {
   text-align: center;
-  margin: 326px 0 84px 0;
   font: bold 6em 'Nanum Gothic', sans-serif;
   color: #9E7D46;
+  margin: 326px 0 84px 0;
 }
 #about .sub-text-box {
   width: 1127px; height: 194px;
@@ -214,9 +206,9 @@
 
 #fact h2{
   text-align: center;
-  margin: 326px 0 50px 0;
   font: bold 6em 'Nanum Gothic', sans-serif;
   color: #9E7D46;
+  margin: 326px 0 50px 0;
 }
 #fact .slider-items {
   width: 770px; height: 168px;
@@ -224,13 +216,13 @@
 }
 #fact .slider-item {
   width: 170px; height: 100%;
-  float: left;
   border-radius: 50%;
   border: 1px solid #9E7D46;
-  margin-right: 70px;
   font: 400 2.4em 'Nanum Gothic', sans-serif;
   color: #fff;
   text-align: center;
+  float: left;
+  margin-right: 70px;
 }
 #fact .slider-item h3 {
   font: 400 3.5em/120px 'Nanum Gothic', sans-serif;
@@ -267,9 +259,9 @@
 
 #guide h2{
   text-align: center;
-  margin: 250px 0 50px 0;
   font: bold 6em 'Nanum Gothic', sans-serif;
   color: #fff;
+  margin: 250px 0 50px 0;
 }
 
 #guide .slider-items {
@@ -281,8 +273,8 @@
   margin: 0 73px;
 }
 #guide .slider-items .slider-item:nth-child(2){
-  position: relative;
   text-align: center;
+  position: relative;
 }
 #guide .slider-items .plus-btn{
   position: absolute;
@@ -344,9 +336,9 @@
 
 #news h2{
   text-align: center;
-  margin: 180px 0 50px 0;
   font: bold 6em 'Nanum Gothic', sans-serif;
   color: #9E7D46;
+  margin: 180px 0 50px 0;
 }
 
 /* slider-items */
@@ -362,29 +354,26 @@
   margin-right: 156px;
 }
 #news .slider-items .slider-item>img{
-  width: 310px;
-  height: 210px;
+  width: 310px; height: 210px;
   position: relative;
   z-index: 10;
 }
 #news .slider-items .slider-item .bg-box{
-  width: 293px;
-  height: 189px;
+  width: 293px; height: 189px;
   border: 1px solid #9E7D46;
   position: absolute;
   top: 63px; left: 52px;
 }
 #news .slider-items .bg-box h3{
+  font: 400 2.4em 'Nanum Gothic', sans-serif;
   position: absolute;
   left: 10px; bottom: 5px;
-  font: 400 2.4em 'Nanum Gothic', sans-serif;
 }
 #news .slider-items .bg-box .date{
-  position: absolute;
-  right: -33px;
-  top: 50px;
   font: 400 1.8em 'Nanum Gothic', sans-serif;
   color: #9e7d46;
+  position: absolute;
+  right: -33px; top: 50px;
 
   -webkit-transform: rotate(90deg);
   -moz-transform: rotate(90deg);
@@ -468,15 +457,4 @@
   font-size: 2.4em;
   color: #fff;
 }
-
-
-
-
-
-
-
-
-
-
-
 
